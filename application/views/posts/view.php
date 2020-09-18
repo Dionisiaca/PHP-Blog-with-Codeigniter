@@ -3,3 +3,11 @@
     <small>Posted on: <?php echo $post['created_at']; ?></small>
     <p><?php echo $post['body']; ?></p>
 </div>
+
+<hr>
+
+<a class="btn btn-default" href="<?php echo base_url(); ?>posts/edit/<?php echo $post['slug']; ?>">Edit</a>
+<?php echo form_open('posts/delete/'.$post['id']); ?>
+<form action="submit">
+    <input type="submit" value="Delete" class="btn btn-danger">
+</form>

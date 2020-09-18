@@ -3,6 +3,7 @@
 <head>
     <title>BLOG</title>
     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <script src="https://cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
 </head>
 
 <body>
@@ -16,6 +17,10 @@
                     <li><a href="<?php echo base_url(); ?>">Home</a></li>
                     <li><a href="<?php echo base_url(); ?>about">About</a></li>
                     <li><a href="<?php echo base_url(); ?>posts">Posts</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="<?php echo base_url(); ?>posts/new">Create post</a></li>
+
                 </ul>
             </div>
         </div>

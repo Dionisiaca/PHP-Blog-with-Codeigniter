@@ -10,7 +10,7 @@
   </div>
   <div class="form-group">
     <label>Post content</label>
-    <textarea class="form-control" placeholder="Add your post content" name="content"></textarea>
+    <textarea id="editor1" class="form-control" placeholder="Add your post content" name="content"></textarea>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
