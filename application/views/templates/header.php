@@ -2,6 +2,7 @@
 
 <head>
     <title>BLOG</title>
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
     <script src="https://cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
 </head>
