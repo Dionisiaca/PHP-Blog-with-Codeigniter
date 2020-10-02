@@ -21,6 +21,9 @@ class Categories extends CI_Controller
             $this->load->view('templates/footer');
         } else {
             $this->category_model->new_category();
+
+            $this->session->set_flashdata('category_created', 'You have succesfully created a new category.');
+
             redirect('categories');
         }
     }
